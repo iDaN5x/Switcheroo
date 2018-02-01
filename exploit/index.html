@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Switcheroo</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="jailbreak.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+
+    <body>
+        <a href="https://github.com/idan5x/switcheroo">
+            <img alt="Fork me on GitHub"
+                 style="position: absolute; top: 0; right: 0; border: 0;"
+                 src="https://camo.githubusercontent.com/e7bbb0521b397edbd5fe43e7f760759336b5e05f/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677265656e5f3030373230302e706e67"
+                 data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png">
+        </a>
+
+        <div id="content">
+            <div class="header">
+                <h1>Switcheroo</h1>
+                <h2>Nintendo Switch JailBreak PoC</h2>
+            </div>
+
+            <div class="info">
+              <p>
+                  This page demonstrated an approach of JailBreaking the new
+                  Nintendo Switch console. It was created for <strong>academic
+                  purpose ONLY</strong>.
+              </p>
+              <p>
+                While the the tool we present here might be allow for
+                an actual JailBreak solution, it'll only crash the console
+                on sucess. without applying any software modification.
+              </p>
+              <p>
+                For more information about the bug exploited in this tool,
+                please refer to the article published on the tool's
+                <a href="https://github.com/iDaN5x/switcheroo">GitHub repository</a>
+              </p>
+          </div>
+
+            <button id="runbtn" class="green button"
+                    onclick="startJailBreak()" disabled>Run Exploit</button>
+
+            <button class="blue button" onclick="location.reload()">
+              Reload Page
+            </button>
+
+            <div id="log"></div>
+        </div>
+
+        <script src="logger.js"></script>
+
+        <script>
+          var btn = document.getElementById("runbtn");
+
+          // If Nintendo Switch is detected allow explotion.
+          if (navigator.userAgent.indexOf('Nintendo Switch') > -1) {
+            btn.disabled = false;
+            console.log("Nintendo Switch device found.\n" +
+              "Press the button to start JailBreak");
+          } else {
+            console.error("Can't JailBreak unfamiliar device.\n" +
+              "Please load this page on your Nintendo Switch.");
+          }
+
+          function startJailBreak() {
+            // Disable run button.
+            console.log("Starting exploit.")
+            btn.disabled = true;
+
+            // Wait 500ms before running exploit.
+            setTimeout(function() {
+              var jailbreak = new JailBreak();
+              jailbreak.start();
+            }, 500);
+          }
+        </script>
+    </body>
+</html>
