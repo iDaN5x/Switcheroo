@@ -14,10 +14,6 @@ Netanel O.
 Mrs. Alona K. (M.Sc) for guidance and support.  
 @LiveOverflow for providing educational information.
 
-## Demo
-You can see a demonstration on [this](https://youtu.be/KDiXJ-Q4mkY) YouTube video:  
-[![IDemo Video](https://img.youtube.com/vi/KDiXJ-Q4mkY/1.jpg)](https://www.youtube.com/watch?v=KDiXJ-Q4mkY)
-
 ## How
 Please refer to the article we published for information about the technics used by this software.  
 The article is avialable [here](https://github.com/iDaN5x/Switcheroo/wiki/Article), or as a file in both [Word](https://github.com/iDaN5x/Switcheroo/raw/master/Article.docx) & [PDF](https://github.com/iDaN5x/Switcheroo/raw/master/Article.pdf) formats.
