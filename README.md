@@ -6,17 +6,17 @@ We discourage any usage of the code and/or the attached article for malicious ac
 
 
 ## Developers
-Idan A. (@iDaN5x)  
+Idan A. ([@iDaN5x](https://github.com/idan5x))  
 Avraam I. (@avraaif)  
 Netanel O.  
 
 ## Special Thanks
 Mrs. Alona K. (M.Sc) for guidance and support.  
-@LiveOverflow for providing educational information.
+[@LiveOverflow](https://github.com/LiveOverflow) for providing educational information.
 
 ## How
 Please refer to the article we published for information about the technics used by this software.  
-The article is avialable [here](https://github.com/iDaN5x/Switcheroo/wiki/Article), or as a file in both [Word](https://github.com/iDaN5x/Switcheroo/raw/master/Article.docx) & [PDF](https://github.com/iDaN5x/Switcheroo/raw/master/Article.pdf) formats.
+The article is available [here](https://github.com/iDaN5x/Switcheroo/wiki/Article), or as a file in both [Word](https://github.com/iDaN5x/Switcheroo/raw/master/Article.docx) & [PDF](https://github.com/iDaN5x/Switcheroo/raw/master/Article.pdf) formats.
 
 ## Running
 ### On the demo browser
